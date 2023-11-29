@@ -941,3 +941,7 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.11.29-04.31.07:910][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.11.29-04.31.07:915][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
 [2023.11.29-04.31.07:958][678]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.11.29-04.35.06:458][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.11.29-04.35.06:703][261]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/Saved/FirstPersonExampleMap_Auto1A76AFEB7487A53C85CE1E0A5ABF61D0C.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2023.11.29-04.35.06:748][261]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.300
+[2023.11.29-04.35.06:748][261]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.300
