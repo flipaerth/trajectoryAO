@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Trajectory AO\\trajectoryAO\\TrajectoryAO\\Source\\TrajectoryAO\\TrajectoryAO.Build.cs",
+		"C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Trajectory AO\\trajectoryAO\\TrajectoryAO\\Source\\TrajectoryAO.Target.cs",
+		"C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Trajectory AO\\trajectoryAO\\TrajectoryAO\\Source\\TrajectoryAOEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

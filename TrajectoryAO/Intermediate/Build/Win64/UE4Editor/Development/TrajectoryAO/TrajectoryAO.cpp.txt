@@ -1,0 +1,2 @@
+C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\Definitions.TrajectoryAO.h
+C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Source\TrajectoryAO\TrajectoryAO.h

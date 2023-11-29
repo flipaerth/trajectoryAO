@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TrajectoryAO",
+			"Path": "C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Trajectory AO\\trajectoryAO\\TrajectoryAO\\Source\\TrajectoryAO.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TrajectoryAOEditor",
+			"Path": "C:\\Users\\austi\\Desktop\\UnrealEngine Projects\\Trajectory AO\\trajectoryAO\\TrajectoryAO\\Source\\TrajectoryAOEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
