@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryAOCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FColor();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	TRAJECTORYAO_API UClass* Z_Construct_UClass_ATrajectoryAOProjectile_NoRegister();
@@ -76,6 +77,22 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryAOCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_projectileSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_projectileSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_projectileGravity_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_projectileGravity;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_precision_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_precision;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_lineColorFromGun_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_lineColorFromGun;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
@@ -211,6 +228,34 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryAOCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileSpeed = { "projectileSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryAOCharacter, projectileSpeed), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileSpeed_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity_MetaData[] = {
+		{ "Category", "TrajectoryAOCharacter" },
+		{ "ModuleRelativePath", "TrajectoryAOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity = { "projectileGravity", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryAOCharacter, projectileGravity), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime_MetaData[] = {
+		{ "Category", "TrajectoryAOCharacter" },
+		{ "ModuleRelativePath", "TrajectoryAOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime = { "maxTime", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryAOCharacter, maxTime), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_precision_MetaData[] = {
+		{ "Category", "TrajectoryAOCharacter" },
+		{ "ModuleRelativePath", "TrajectoryAOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_precision = { "precision", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryAOCharacter, precision), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_precision_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_precision_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_lineColorFromGun_MetaData[] = {
+		{ "Category", "TrajectoryAOCharacter" },
+		{ "ModuleRelativePath", "TrajectoryAOCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_lineColorFromGun = { "lineColorFromGun", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryAOCharacter, lineColorFromGun), Z_Construct_UScriptStruct_FColor, METADATA_PARAMS(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_lineColorFromGun_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_lineColorFromGun_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
@@ -287,6 +332,10 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryAOCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_precision,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_lineColorFromGun,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_GunOffset,
@@ -322,7 +371,7 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryAOCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATrajectoryAOCharacter, 3691970708);
+	IMPLEMENT_CLASS(ATrajectoryAOCharacter, 3099470213);
 	template<> TRAJECTORYAO_API UClass* StaticClass<ATrajectoryAOCharacter>()
 	{
 		return ATrajectoryAOCharacter::StaticClass();

@@ -8,6 +8,10 @@ D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootM
 D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
 C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Inc\TrajectoryAO\TrajectoryAOCharacter.generated.h
 C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Source\TrajectoryAO\TrajectoryAOProjectile.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/ProjectileMovementComponent.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/MovementComponent.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MovementComponent.generated.h
+D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ProjectileMovementComponent.generated.h
 C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Inc\TrajectoryAO\TrajectoryAOProjectile.generated.h
 D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
@@ -46,3 +50,4 @@ D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Scene
 D:\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\LateUpdateManager.h
 D:\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\MotionControllerComponent.generated.h
 D:\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\XRMotionControllerBase.h
+D:\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

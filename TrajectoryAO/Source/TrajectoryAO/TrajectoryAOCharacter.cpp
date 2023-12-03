@@ -11,6 +11,8 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "DrawDebugHelpers.h"
+#include "Math/Vector.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -82,6 +84,37 @@ ATrajectoryAOCharacter::ATrajectoryAOCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+}
+
+void ATrajectoryAOCharacter::Tick(float DeltaTime) {
+
+	Super::Tick(DeltaTime);
+
+	// Getting the location of the gun
+	FVector start = FP_Gun->GetComponentLocation();
+
+	// Get the forward vector of the camera
+	FVector ForwardVector = FirstPersonCameraComponent->GetForwardVector();
+
+	/*
+	 * EQUATION: d (displacement) = vi(initial velocity) * t(time) + 1/2 * a(acceloration) * t^2
+	 */
+
+	for (float time = 0; time < maxTime; time += precision) {
+
+		// get how much we've moved at each chunk of time
+		float displacement = projectileSpeed * time + 0.5f + projectileGravity * (time * time); // equation/formula here
+		FVector displacementVector = FVector(0.0f, 0.0f, displacement);
+
+		FVector currentPoint = start + displacementVector;
+		FVector previousPoint = currentPoint;
+
+		// draw line here
+		DrawDebugLine(GetWorld(), previousPoint, currentPoint, lineColorFromGun, false, 0.1f);
+	}
+
+	// Draw Debug Line to visualize the line trace
+	//DrawDebugLine(GetWorld(), start, end, lineColorFromGun, false, 0.1f);
 }
 
 void ATrajectoryAOCharacter::BeginPlay()
@@ -164,6 +197,7 @@ void ATrajectoryAOCharacter::OnFire()
 
 				ATrajectoryAOProjectile* proj = ProjectileClass.GetDefaultObject();
 				proj->GetProjectileMovement()->InitialSpeed = projectileSpeed;
+				proj->GetProjectileMovement()->ProjectileGravityScale = projectileGravity;
 
 				// spawn the projectile at the muzzle
 				World->SpawnActor<ATrajectoryAOProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);

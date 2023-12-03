@@ -59,8 +59,23 @@ protected:
 
 public:
 
+	// Tick Function
+	virtual void Tick(float DeltaTime) override;
+
 	UPROPERTY(EditAnywhere)
 	float projectileSpeed = 1.0f;
+
+	UPROPERTY(EditAnywhere)
+	float projectileGravity = 1.0f;
+
+	UPROPERTY(EditAnywhere)
+	float maxTime = 10.0f;
+
+	UPROPERTY(EditAnywhere)
+	float precision = 1;
+
+	UPROPERTY(EditAnywhere)
+	FColor lineColorFromGun;
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
