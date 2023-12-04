@@ -86,6 +86,10 @@ ATrajectoryAOCharacter::ATrajectoryAOCharacter()
 	//bUsingMotionControllers = true;
 }
 
+float ATrajectoryAOCharacter::GetDisplacement(float Time, float ProjectileGravity, float ProjectileSpeed) {
+	return ProjectileSpeed * Time + 0.5f * ProjectileGravity * (Time * Time);
+}
+
 void ATrajectoryAOCharacter::Tick(float DeltaTime) {
 
 	Super::Tick(DeltaTime);
@@ -96,21 +100,39 @@ void ATrajectoryAOCharacter::Tick(float DeltaTime) {
 	// Get the forward vector of the camera
 	FVector ForwardVector = FirstPersonCameraComponent->GetForwardVector();
 
+	// projectilespeed is the bullet's velocity, so the actual initial velocity is "projectilespeed in the direction of player's forward"
+	FVector forward_velocity = FP_Gun->GetRightVector() * projectileSpeed;
+
 	/*
 	 * EQUATION: d (displacement) = vi(initial velocity) * t(time) + 1/2 * a(acceloration) * t^2
 	 */
 
+	// Initialize previousPoint outside the loop
+	FVector previousPoint = start;
+
 	for (float time = 0; time < maxTime; time += precision) {
 
-		// get how much we've moved at each chunk of time
-		float displacement = projectileSpeed * time + 0.5f + projectileGravity * (time * time); // equation/formula here
-		FVector displacementVector = FVector(0.0f, 0.0f, displacement);
+		// Checking to see if the loop is running
+		//GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Cyan, "Hello World");
 
-		FVector currentPoint = start + displacementVector;
-		FVector previousPoint = currentPoint;
+		// get how much we've moved at each chunk of time
+		//float displacement = projectileSpeed * time + 0.5f + projectileGravity * (time * time); // equation/formula here
+		//FVector displacementVector = FVector(0.0f, 0.0f, displacement);
+
+		float dispX = GetDisplacement(time, 0, forward_velocity.X);
+		float dispY = GetDisplacement(time, 0, forward_velocity.Y);
+		float dispZ = GetDisplacement(time, projectileGravity, forward_velocity.Z);
+		FVector actualDisplacement = FVector(dispX, dispY, dispZ);
+
+
+		FVector currentPoint = start + actualDisplacement;
+		//FVector previousPoint = currentPoint;
 
 		// draw line here
 		DrawDebugLine(GetWorld(), previousPoint, currentPoint, lineColorFromGun, false, 0.1f);
+
+		// Update previousPoint for the next iteration
+		previousPoint = currentPoint;
 	}
 
 	// Draw Debug Line to visualize the line trace
@@ -196,8 +218,8 @@ void ATrajectoryAOCharacter::OnFire()
 				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
 				ATrajectoryAOProjectile* proj = ProjectileClass.GetDefaultObject();
-				proj->GetProjectileMovement()->InitialSpeed = projectileSpeed;
-				proj->GetProjectileMovement()->ProjectileGravityScale = projectileGravity;
+				proj->SetProjectileSpeed(projectileSpeed);
+				projectileGravity = GetWorld()->GetGravityZ();
 
 				// spawn the projectile at the muzzle
 				World->SpawnActor<ATrajectoryAOProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);

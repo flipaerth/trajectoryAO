@@ -78,10 +78,6 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryAOCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_projectileSpeed;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_projectileGravity_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_projectileGravity;
-#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxTime_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxTime;
@@ -228,16 +224,11 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryAOCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileSpeed = { "projectileSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryAOCharacter, projectileSpeed), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileSpeed_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity_MetaData[] = {
-		{ "Category", "TrajectoryAOCharacter" },
-		{ "ModuleRelativePath", "TrajectoryAOCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity = { "projectileGravity", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryAOCharacter, projectileGravity), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity_MetaData)) };
-#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime_MetaData[] = {
 		{ "Category", "TrajectoryAOCharacter" },
+		{ "Comment", "/*\n\x09UPROPERTY(EditAnywhere)\n\x09""float projectileGravity = 1.0f;\n\x09*/" },
 		{ "ModuleRelativePath", "TrajectoryAOCharacter.h" },
+		{ "ToolTip", "UPROPERTY(EditAnywhere)\nfloat projectileGravity = 1.0f;" },
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime = { "maxTime", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATrajectoryAOCharacter, maxTime), METADATA_PARAMS(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime_MetaData)) };
@@ -332,7 +323,6 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryAOCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileSpeed,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_projectileGravity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_maxTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_precision,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATrajectoryAOCharacter_Statics::NewProp_lineColorFromGun,
@@ -371,7 +361,7 @@ void EmptyLinkFunctionForGeneratedCodeTrajectoryAOCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATrajectoryAOCharacter, 3099470213);
+	IMPLEMENT_CLASS(ATrajectoryAOCharacter, 788358379);
 	template<> TRAJECTORYAO_API UClass* StaticClass<ATrajectoryAOCharacter>()
 	{
 		return ATrajectoryAOCharacter::StaticClass();
