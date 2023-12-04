@@ -95,7 +95,8 @@ void ATrajectoryAOCharacter::Tick(float DeltaTime) {
 	Super::Tick(DeltaTime);
 
 	// Getting the location of the gun
-	FVector start = FP_Gun->GetComponentLocation();
+	FRotator SpawnRotation = GetControlRotation();
+	FVector start = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset); //FP_Gun->GetComponentLocation();
 
 	// Get the forward vector of the camera
 	FVector ForwardVector = FirstPersonCameraComponent->GetForwardVector();
@@ -123,7 +124,6 @@ void ATrajectoryAOCharacter::Tick(float DeltaTime) {
 		float dispY = GetDisplacement(time, 0, forward_velocity.Y);
 		float dispZ = GetDisplacement(time, projectileGravity, forward_velocity.Z);
 		FVector actualDisplacement = FVector(dispX, dispY, dispZ);
-
 
 		FVector currentPoint = start + actualDisplacement;
 		//FVector previousPoint = currentPoint;
@@ -160,6 +160,19 @@ void ATrajectoryAOCharacter::BeginPlay()
 	}
 }
 
+void ATrajectoryAOCharacter::projSpeedChange1() {
+	projectileSpeed = 1.0f;
+}
+
+void ATrajectoryAOCharacter::projSpeedChange2() {
+	projectileSpeed = 3000.0f;
+}
+
+void ATrajectoryAOCharacter::projSpeedChange3() {
+	projectileSpeed = 10000.0f;
+}
+
+
 //////////////////////////////////////////////////////////////////////////
 // Input
 
@@ -191,6 +204,11 @@ void ATrajectoryAOCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	PlayerInputComponent->BindAxis("TurnRate", this, &ATrajectoryAOCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ATrajectoryAOCharacter::LookUpAtRate);
+
+	// Setting up projectile speed change inputs - this is my code
+	PlayerInputComponent->BindAction("Speed1", IE_Pressed, this, &ATrajectoryAOCharacter::projSpeedChange1);
+	PlayerInputComponent->BindAction("Speed2", IE_Pressed, this, &ATrajectoryAOCharacter::projSpeedChange2);
+	PlayerInputComponent->BindAction("Speed3", IE_Pressed, this, &ATrajectoryAOCharacter::projSpeedChange3);
 }
 
 void ATrajectoryAOCharacter::OnFire()
