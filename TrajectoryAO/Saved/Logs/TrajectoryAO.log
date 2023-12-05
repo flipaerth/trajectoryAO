@@ -952,3 +952,1178 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.12.04-22.54.45:878][424]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2023.12.04-22.54.45:882][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
 [2023.12.04-22.54.45:943][426]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.12.04-22.58.30:565][140]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2023.12.04-22.58.30:579][140]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2023.12.04-22.58.34:917][392]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> bp_hud
+[2023.12.04-22.58.35:177][392]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2023.12.04-22.58.36:798][480]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.04-22.58.36:825][480]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/FirstPersonCPP/Blueprints/bp_hud.bp_hud
+[2023.12.04-22.58.37:295][480]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 126 classes and 0 folders.
+[2023.12.04-22.58.40:030][480]LogSlate: Took 0.000693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.12.04-23.03.37:504][ 29]LogSlate: Window 'bp_hud' being destroyed
+[2023.12.04-23.03.37:520][ 29]LogSlate: Window 'bp_hud' being destroyed
+[2023.12.04-23.03.39:061][ 29]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.03.39:063][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.03.39:073][ 29]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.03.39:073][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.03.44:571][312]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2023.12.04-23.03.47:880][312]LogSlate: Window 'Delete Assets' being destroyed
+[2023.12.04-23.03.47:916][312]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/FirstPersonCPP/Blueprints/bp_hud.bp_hud
+[2023.12.04-23.03.50:397][312]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2023.12.04-23.03.58:565][781]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/Source/TrajectoryAO/TrajectoryAOHUD.h'
+[2023.12.04-23.03.58:717][781]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/Source/TrajectoryAO/TrajectoryAOHUD.cpp'
+[2023.12.04-23.08.02:793][ 12]Candidate modules for hot reload:
+[2023.12.04-23.08.02:793][ 12]  TrajectoryAO
+[2023.12.04-23.08.02:793][ 12]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,2594 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.08.02:800][ 12]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.08.14:602][459]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:08:14 AM
+[2023.12.04-23.08.14:602][459]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.08.14:602][459]CompilerResultsLog: Invalidating makefile for TrajectoryAOEditor (TrajectoryAOCharacter.cpp.obj.response modified)
+[2023.12.04-23.08.14:602][459]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.08.14:602][459]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.08.14:602][459]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.12.04-23.08.14:602][459]CompilerResultsLog:   [1/4] TrajectoryAOCharacter.cpp
+[2023.12.04-23.08.14:602][459]CompilerResultsLog:   [2/4] UE4Editor-TrajectoryAO-2594.lib
+[2023.12.04-23.08.14:602][459]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-2594.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-2594.exp
+[2023.12.04-23.08.14:602][459]CompilerResultsLog:   [3/4] UE4Editor-TrajectoryAO-2594.dll
+[2023.12.04-23.08.14:602][459]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-2594.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-2594.suppressed.exp
+[2023.12.04-23.08.14:602][459]CompilerResultsLog:   [4/4] TrajectoryAOEditor.target
+[2023.12.04-23.08.14:602][459]CompilerResultsLog: Total time in Parallel executor: 6.61 seconds
+[2023.12.04-23.08.14:602][459]CompilerResultsLog: Total execution time: 11.68 seconds
+[2023.12.04-23.08.14:602][459]LogMainFrame: MainFrame: Module compiling took 11.818 seconds
+[2023.12.04-23.08.14:689][459]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.08.14:698][459]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.08.14:802][459]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0141 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.08.14:802][459]Display: HotReload took 12.0s.
+[2023.12.04-23.08.16:992][566]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.08.17:000][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.08.17:000][566]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:08:17 AM)
+[2023.12.04-23.08.17:001][566]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.08.17:017][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016601s)
+[2023.12.04-23.08.17:018][566]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.08.17:018][566]LogPlayLevel: PIE: World Init took: (0.001655s)
+[2023.12.04-23.08.17:019][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018478s)
+[2023.12.04-23.08.17:107][566]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2023.12.04-23.08.17:111][566]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.12.04-23.08.17:112][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.08.17:112][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.08.17:112][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.08.17:112][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.08.17:112][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.08.17:112][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.08.17:112][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.08.17:112][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.08.17:113][566]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.08.17:113][566]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.08.17:113][566]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.08.17:113][566]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.08.17:230][566]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.08.17:230][566]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.08.17:249][566]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.08.17:250][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.08.17:250][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.08.17:250][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.08.17:251][566]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.08.17:251][566]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.08.17:251][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.08.17:252][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.08.17:252][566]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.08.17:252][566]LogInit: FAudioDevice initialized.
+[2023.12.04-23.08.17:252][566]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.08.17:264][566]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.08.17:266][566]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.08.17
+[2023.12.04-23.08.17:267][566]LogWorld: Bringing up level for play took: 0.002502
+[2023.12.04-23.08.17:267][566]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2023.12.04-23.08.17:270][566]PIE: Server logged in
+[2023.12.04-23.08.17:270][566]PIE: Play in editor total start time 0.271 seconds.
+[2023.12.04-23.08.37:183][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.08.37:183][757]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.08.37:183][757]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.08.37:184][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.08.37:196][757]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.08.37:200][757]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.08.37:216][757]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-23.08.37:216][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.08.37:217][757]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.08.37:220][757]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.08.37:254][757]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2023.12.04-23.08.37:279][758]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2023.12.04-23.08.51:591][945]Candidate modules for hot reload:
+[2023.12.04-23.08.51:591][945]  TrajectoryAO
+[2023.12.04-23.08.51:591][945]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,1956 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.08.51:597][945]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.09.01:228][501]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:09:01 AM
+[2023.12.04-23.09.01:228][501]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.09.01:228][501]CompilerResultsLog: Invalidating makefile for TrajectoryAOEditor (TrajectoryAOCharacter.cpp.obj.response modified)
+[2023.12.04-23.09.01:228][501]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.09.01:228][501]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.09.01:228][501]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.12.04-23.09.01:229][501]CompilerResultsLog:   [1/4] TrajectoryAOCharacter.cpp
+[2023.12.04-23.09.01:229][501]CompilerResultsLog:   [2/4] UE4Editor-TrajectoryAO-1956.lib
+[2023.12.04-23.09.01:229][501]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-1956.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-1956.exp
+[2023.12.04-23.09.01:229][501]CompilerResultsLog:   [3/4] UE4Editor-TrajectoryAO-1956.dll
+[2023.12.04-23.09.01:229][501]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-1956.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-1956.suppressed.exp
+[2023.12.04-23.09.01:229][501]CompilerResultsLog:   [4/4] TrajectoryAOEditor.target
+[2023.12.04-23.09.01:229][501]CompilerResultsLog: Total time in Parallel executor: 5.22 seconds
+[2023.12.04-23.09.01:229][501]CompilerResultsLog: Total execution time: 9.51 seconds
+[2023.12.04-23.09.01:229][501]LogMainFrame: MainFrame: Module compiling took 9.645 seconds
+[2023.12.04-23.09.01:302][501]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.09.01:309][501]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.09.01:412][501]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0164 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.09.01:412][501]Display: HotReload took  9.8s.
+[2023.12.04-23.09.03:306][587]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.09.03:316][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.09.03:316][587]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:09:03 AM)
+[2023.12.04-23.09.03:352][587]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.09.03:365][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012478s)
+[2023.12.04-23.09.03:366][587]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.09.03:455][587]LogPlayLevel: PIE: World Init took: (0.090102s)
+[2023.12.04-23.09.03:455][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.102903s)
+[2023.12.04-23.09.03:536][587]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2023.12.04-23.09.03:537][587]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2023.12.04-23.09.03:537][587]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.09.03:537][587]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.09.03:538][587]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.09.03:538][587]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.09.03:538][587]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.09.03:538][587]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.09.03:538][587]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.09.03:538][587]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.09.03:538][587]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.09.03:538][587]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.09.03:538][587]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.09.03:538][587]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.09.03:542][587]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.09.03:542][587]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.09.03:559][587]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.09.03:559][587]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.09.03:559][587]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.09.03:559][587]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.09.03:560][587]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.09.03:560][587]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.09.03:560][587]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.09.03:562][587]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.09.03:563][587]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.09.03:563][587]LogInit: FAudioDevice initialized.
+[2023.12.04-23.09.03:563][587]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.09.03:573][587]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.09.03:575][587]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.09.03
+[2023.12.04-23.09.03:576][587]LogWorld: Bringing up level for play took: 0.002140
+[2023.12.04-23.09.03:576][587]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2023.12.04-23.09.03:579][587]PIE: Server logged in
+[2023.12.04-23.09.03:580][587]PIE: Play in editor total start time 0.265 seconds.
+[2023.12.04-23.09.09:283][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.09.09:284][926]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.09.09:284][926]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.09.09:284][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.09.09:298][926]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.09.09:303][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.09.09:317][926]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.09.09:317][926]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.09.09:318][926]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.09.09:353][926]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2023.12.04-23.09.09:377][927]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.12.04-23.13.58:620][928]Candidate modules for hot reload:
+[2023.12.04-23.13.58:620][928]  TrajectoryAO
+[2023.12.04-23.13.58:620][928]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,0698 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.13.58:627][928]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.14.05:798][ 91]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:14:05 AM
+[2023.12.04-23.14.05:798][ 91]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.14.05:798][ 91]CompilerResultsLog: Invalidating makefile for TrajectoryAOEditor (TrajectoryAOCharacter.cpp.obj.response modified)
+[2023.12.04-23.14.05:798][ 91]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.14.05:798][ 91]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.14.05:798][ 91]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.12.04-23.14.05:798][ 91]CompilerResultsLog:   [1/4] TrajectoryAOCharacter.cpp
+[2023.12.04-23.14.05:799][ 91]CompilerResultsLog:   [2/4] UE4Editor-TrajectoryAO-0698.lib
+[2023.12.04-23.14.05:799][ 91]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0698.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0698.exp
+[2023.12.04-23.14.05:799][ 91]CompilerResultsLog:   [3/4] UE4Editor-TrajectoryAO-0698.dll
+[2023.12.04-23.14.05:799][ 91]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0698.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0698.suppressed.exp
+[2023.12.04-23.14.05:799][ 91]CompilerResultsLog:   [4/4] TrajectoryAOEditor.target
+[2023.12.04-23.14.05:799][ 91]CompilerResultsLog: Total time in Parallel executor: 3.52 seconds
+[2023.12.04-23.14.05:799][ 91]CompilerResultsLog: Total execution time: 7.04 seconds
+[2023.12.04-23.14.05:799][ 91]LogMainFrame: MainFrame: Module compiling took 7.186 seconds
+[2023.12.04-23.14.05:865][ 91]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.14.05:870][ 91]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.14.05:975][ 91]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0166 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.14.05:975][ 91]Display: HotReload took  7.4s.
+[2023.12.04-23.14.08:272][169]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.14.08:281][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.14.08:281][169]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:14:08 AM)
+[2023.12.04-23.14.08:281][169]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.14.08:292][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010846s)
+[2023.12.04-23.14.08:293][169]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.14.08:294][169]LogPlayLevel: PIE: World Init took: (0.001575s)
+[2023.12.04-23.14.08:294][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012682s)
+[2023.12.04-23.14.08:366][169]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2023.12.04-23.14.08:367][169]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.12.04-23.14.08:367][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.14.08:367][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.14.08:367][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.14.08:367][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.14.08:367][169]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.14.08:367][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.14.08:367][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.14.08:367][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.14.08:368][169]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.14.08:368][169]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.14.08:368][169]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.14.08:368][169]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.14.08:371][169]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.14.08:371][169]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.14.08:388][169]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.14.08:388][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.14.08:388][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.14.08:388][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.14.08:389][169]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.14.08:389][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.14.08:389][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.14.08:390][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.14.08:390][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.14.08:390][169]LogInit: FAudioDevice initialized.
+[2023.12.04-23.14.08:390][169]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.14.08:406][169]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.14.08:409][169]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.14.08
+[2023.12.04-23.14.08:409][169]LogWorld: Bringing up level for play took: 0.002316
+[2023.12.04-23.14.08:409][169]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2023.12.04-23.14.08:412][169]PIE: Server logged in
+[2023.12.04-23.14.08:413][169]PIE: Play in editor total start time 0.133 seconds.
+[2023.12.04-23.14.15:494][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.14.15:494][582]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.14.15:494][582]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.14.15:494][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.14.15:505][582]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.14.15:509][582]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.14.15:521][582]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-23.14.15:523][582]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.14.15:524][582]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.14.15:527][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.14.15:530][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.12.04-23.14.15:563][584]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.12.04-23.15.02:891][870]Candidate modules for hot reload:
+[2023.12.04-23.15.02:891][870]  TrajectoryAO
+[2023.12.04-23.15.02:891][870]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,6598 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.15.02:898][870]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.15.10:156][253]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:15:10 AM
+[2023.12.04-23.15.10:156][253]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.15.10:156][253]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.15.10:156][253]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.15.10:156][253]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.12.04-23.15.10:156][253]CompilerResultsLog:   [1/4] TrajectoryAOCharacter.cpp
+[2023.12.04-23.15.10:156][253]CompilerResultsLog:   [2/4] UE4Editor-TrajectoryAO-6598.lib
+[2023.12.04-23.15.10:156][253]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6598.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6598.exp
+[2023.12.04-23.15.10:156][253]CompilerResultsLog:   [3/4] UE4Editor-TrajectoryAO-6598.dll
+[2023.12.04-23.15.10:156][253]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6598.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6598.suppressed.exp
+[2023.12.04-23.15.10:156][253]CompilerResultsLog:   [4/4] TrajectoryAOEditor.target
+[2023.12.04-23.15.10:156][253]CompilerResultsLog: Total time in Parallel executor: 5.63 seconds
+[2023.12.04-23.15.10:156][253]CompilerResultsLog: Total execution time: 7.13 seconds
+[2023.12.04-23.15.10:156][253]LogMainFrame: MainFrame: Module compiling took 7.274 seconds
+[2023.12.04-23.15.10:228][253]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.15.10:234][253]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.15.10:335][253]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0185 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.15.10:335][253]Display: HotReload took  7.5s.
+[2023.12.04-23.15.12:405][351]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.15.12:412][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.15.12:412][351]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:15:12 AM)
+[2023.12.04-23.15.12:412][351]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.15.12:424][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012043s)
+[2023.12.04-23.15.12:426][351]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.15.12:426][351]LogPlayLevel: PIE: World Init took: (0.001916s)
+[2023.12.04-23.15.12:426][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014188s)
+[2023.12.04-23.15.12:502][351]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2023.12.04-23.15.12:504][351]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.12.04-23.15.12:504][351]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.15.12:504][351]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.15.12:504][351]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.15.12:504][351]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.15.12:504][351]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.15.12:504][351]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.15.12:504][351]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.15.12:504][351]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.15.12:504][351]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.15.12:504][351]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.15.12:504][351]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.15.12:504][351]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.15.12:508][351]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.15.12:508][351]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.15.12:525][351]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.15.12:525][351]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.15.12:525][351]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.15.12:525][351]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.15.12:526][351]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.15.12:526][351]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.15.12:526][351]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.15.12:527][351]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.15.12:527][351]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.15.12:527][351]LogInit: FAudioDevice initialized.
+[2023.12.04-23.15.12:527][351]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.15.12:537][351]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.15.12:539][351]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.15.12
+[2023.12.04-23.15.12:541][351]LogWorld: Bringing up level for play took: 0.002311
+[2023.12.04-23.15.12:541][351]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2023.12.04-23.15.12:543][351]PIE: Server logged in
+[2023.12.04-23.15.12:544][351]PIE: Play in editor total start time 0.134 seconds.
+[2023.12.04-23.16.07:613][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.16.07:613][651]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.16.07:614][651]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.16.07:614][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.16.07:624][651]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.16.07:629][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.16.07:647][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.16.07:649][651]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.16.07:650][651]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.16.07:683][651]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2023.12.04-23.16.07:707][652]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.12.04-23.28.35:333][ 23]Candidate modules for hot reload:
+[2023.12.04-23.28.35:333][ 23]  TrajectoryAO
+[2023.12.04-23.28.35:333][ 23]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,6831 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.28.35:340][ 23]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.28.45:069][392]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:28:45 AM
+[2023.12.04-23.28.45:070][392]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.28.45:070][392]CompilerResultsLog: Invalidating makefile for TrajectoryAOEditor (TrajectoryAOCharacter.cpp.obj.response modified)
+[2023.12.04-23.28.45:070][392]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.28.45:070][392]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.28.45:070][392]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.12.04-23.28.45:070][392]CompilerResultsLog:   [1/4] TrajectoryAOCharacter.cpp
+[2023.12.04-23.28.45:070][392]CompilerResultsLog:   [2/4] UE4Editor-TrajectoryAO-6831.lib
+[2023.12.04-23.28.45:070][392]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6831.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6831.exp
+[2023.12.04-23.28.45:070][392]CompilerResultsLog:   [3/4] UE4Editor-TrajectoryAO-6831.dll
+[2023.12.04-23.28.45:070][392]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6831.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6831.suppressed.exp
+[2023.12.04-23.28.45:070][392]CompilerResultsLog:   [4/4] TrajectoryAOEditor.target
+[2023.12.04-23.28.45:070][392]CompilerResultsLog: Total time in Parallel executor: 5.26 seconds
+[2023.12.04-23.28.45:070][392]CompilerResultsLog: Total execution time: 9.59 seconds
+[2023.12.04-23.28.45:070][392]LogMainFrame: MainFrame: Module compiling took 9.745 seconds
+[2023.12.04-23.28.45:153][392]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.28.45:164][392]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.28.45:267][392]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0145 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.28.45:267][392]Display: HotReload took 10.0s.
+[2023.12.04-23.28.48:625][480]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.28.48:632][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.28.48:632][480]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:28:48 AM)
+[2023.12.04-23.28.48:671][480]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.28.48:683][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012058s)
+[2023.12.04-23.28.48:685][480]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.28.48:685][480]LogPlayLevel: PIE: World Init took: (0.001494s)
+[2023.12.04-23.28.48:685][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014006s)
+[2023.12.04-23.28.48:766][480]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2023.12.04-23.28.48:767][480]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.12.04-23.28.48:767][480]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.28.48:767][480]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.28.48:767][480]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.28.48:767][480]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.28.48:767][480]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.28.48:767][480]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.28.48:767][480]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.28.48:767][480]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.28.48:768][480]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.28.48:768][480]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.28.48:768][480]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.28.48:768][480]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.28.48:773][480]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.28.48:773][480]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.28.48:792][480]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.28.48:792][480]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.28.48:792][480]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.28.48:792][480]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.28.48:793][480]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.28.48:793][480]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.28.48:793][480]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.28.48:795][480]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.28.48:795][480]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.28.48:795][480]LogInit: FAudioDevice initialized.
+[2023.12.04-23.28.48:795][480]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.28.48:804][480]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.28.48:807][480]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.28.48
+[2023.12.04-23.28.48:807][480]LogWorld: Bringing up level for play took: 0.002210
+[2023.12.04-23.28.48:807][480]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2023.12.04-23.28.48:810][480]PIE: Server logged in
+[2023.12.04-23.28.48:811][480]PIE: Play in editor total start time 0.18 seconds.
+[2023.12.04-23.29.51:394][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.29.51:394][191]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.29.51:394][191]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.29.51:395][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.29.51:404][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.29.51:408][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.29.51:425][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.29.51:426][191]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.29.51:427][191]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.29.51:433][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2023.12.04-23.29.51:469][193]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2023.12.04-23.37.55:448][150]Candidate modules for hot reload:
+[2023.12.04-23.37.55:448][150]  TrajectoryAO
+[2023.12.04-23.37.55:449][150]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,0647 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.37.55:457][150]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:38:31 AM
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: Invalidating makefile for TrajectoryAOEditor (TrajectoryAOCharacter.cpp.obj.response modified)
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: Parsing headers for TrajectoryAOEditor
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\TrajectoryAO.uproject" "C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\TrajectoryAOEditor\Development\TrajectoryAOEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\austi\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: Reflection code generated for TrajectoryAOEditor in 28.1795214 seconds
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: Building 7 actions with 8 processes...
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:   [1/7] TrajectoryAO.init.gen.cpp
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:   [2/7] TrajectoryAOCharacter.gen.cpp
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:   [3/7] TrajectoryAOGameMode.cpp
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:   [4/7] TrajectoryAOCharacter.cpp
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:   [5/7] UE4Editor-TrajectoryAO-0647.lib
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0647.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0647.exp
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:   [6/7] UE4Editor-TrajectoryAO-0647.dll
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0647.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0647.suppressed.exp
+[2023.12.04-23.38.31:550][288]CompilerResultsLog:   [7/7] TrajectoryAOEditor.target
+[2023.12.04-23.38.31:550][288]CompilerResultsLog: Total time in Parallel executor: 4.08 seconds
+[2023.12.04-23.38.31:551][288]CompilerResultsLog: Total execution time: 35.83 seconds
+[2023.12.04-23.38.31:551][288]LogMainFrame: MainFrame: Module compiling took 36.112 seconds
+[2023.12.04-23.38.31:597][288]LogClass: Could not find existing class TrajectoryAOCharacter in package /Script/TrajectoryAO for HotReload, assuming new class
+[2023.12.04-23.38.31:616][288]LogHotReload: Re-instancing TrajectoryAOCharacter after hot-reload.
+[2023.12.04-23.38.31:984][288]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.38.31:991][288]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.38.32:095][288]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0155 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.38.32:095][288]Display: HotReload took 36.7s.
+[2023.12.04-23.38.35:326][371]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.38.35:333][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.38.35:333][371]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:38:35 AM)
+[2023.12.04-23.38.35:333][371]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.38.35:346][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012207s)
+[2023.12.04-23.38.35:348][371]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.38.35:349][371]LogPlayLevel: PIE: World Init took: (0.002534s)
+[2023.12.04-23.38.35:349][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.015113s)
+[2023.12.04-23.38.35:425][371]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2023.12.04-23.38.35:426][371]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.12.04-23.38.35:426][371]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.38.35:426][371]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.38.35:426][371]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.38.35:426][371]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.38.35:426][371]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.38.35:426][371]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.38.35:426][371]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.38.35:426][371]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.38.35:427][371]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.38.35:427][371]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.38.35:427][371]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.38.35:427][371]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.38.35:431][371]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.38.35:431][371]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.38.35:448][371]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.38.35:449][371]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.38.35:449][371]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.38.35:449][371]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.38.35:449][371]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.38.35:449][371]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.38.35:449][371]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.38.35:451][371]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.38.35:452][371]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.38.35:452][371]LogInit: FAudioDevice initialized.
+[2023.12.04-23.38.35:452][371]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.38.35:460][371]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.38.35:462][371]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.38.35
+[2023.12.04-23.38.35:463][371]LogWorld: Bringing up level for play took: 0.002402
+[2023.12.04-23.38.35:463][371]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2023.12.04-23.38.35:466][371]PIE: Server logged in
+[2023.12.04-23.38.35:467][371]PIE: Play in editor total start time 0.135 seconds.
+[2023.12.04-23.38.49:024][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.38.49:024][175]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.38.49:024][175]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.38.49:025][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.38.49:033][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.38.49:037][175]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.38.49:053][175]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-23.38.49:053][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.38.49:055][175]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.38.49:058][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.38.49:062][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2023.12.04-23.38.49:082][176]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.12.04-23.38.52:426][374]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.38.52:436][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.38.52:436][374]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:38:52 AM)
+[2023.12.04-23.38.52:436][374]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.38.52:449][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012848s)
+[2023.12.04-23.38.52:449][374]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.38.52:451][374]LogPlayLevel: PIE: World Init took: (0.001248s)
+[2023.12.04-23.38.52:451][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014311s)
+[2023.12.04-23.38.52:470][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2023.12.04-23.38.52:472][374]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.12.04-23.38.52:472][374]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.38.52:472][374]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.38.52:472][374]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.38.52:472][374]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.38.52:472][374]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.38.52:472][374]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.38.52:472][374]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.38.52:472][374]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.38.52:473][374]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.38.52:473][374]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.38.52:473][374]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.38.52:473][374]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.38.52:476][374]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.38.52:476][374]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.38.52:492][374]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.38.52:492][374]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.38.52:492][374]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.38.52:493][374]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.38.52:493][374]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.38.52:493][374]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.38.52:493][374]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.38.52:495][374]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.38.52:495][374]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.38.52:495][374]LogInit: FAudioDevice initialized.
+[2023.12.04-23.38.52:495][374]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.38.52:508][374]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.38.52:509][374]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.38.52
+[2023.12.04-23.38.52:510][374]LogWorld: Bringing up level for play took: 0.001999
+[2023.12.04-23.38.52:510][374]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2023.12.04-23.38.52:512][374]PIE: Server logged in
+[2023.12.04-23.38.52:513][374]PIE: Play in editor total start time 0.08 seconds.
+[2023.12.04-23.39.01:654][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.39.01:654][919]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.39.01:654][919]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.39.01:655][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.39.01:668][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.39.01:673][919]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.39.01:689][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.39.01:689][919]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.39.01:690][919]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.39.01:695][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2023.12.04-23.39.01:719][920]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.12.04-23.41.00:430][453]Candidate modules for hot reload:
+[2023.12.04-23.41.00:430][453]  TrajectoryAO
+[2023.12.04-23.41.00:431][453]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,5397 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.41.00:438][453]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.41.01:229][481]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:41:01 AM
+[2023.12.04-23.41.01:230][481]CompilerResultsLog: ERROR: A conflicting instance of UnrealBuildTool is already running.
+[2023.12.04-23.41.01:230][481]LogMainFrame: MainFrame: Module compiling took 0.809 seconds
+[2023.12.04-23.41.01:327][481]Warning: HotReload failed, recompile failed
+[2023.12.04-23.41.03:232][586]LogSlate: Took 0.023531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.12.04-23.41.04:803][675]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-23.41.04:812][675]LogSlate: Window 'Message Log' being destroyed
+[2023.12.04-23.41.10:742][894]Candidate modules for hot reload:
+[2023.12.04-23.41.10:742][894]  TrajectoryAO
+[2023.12.04-23.41.10:743][894]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,0835 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.41.10:751][894]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.41.21:283][474]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:41:21 AM
+[2023.12.04-23.41.21:284][474]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.41.21:284][474]CompilerResultsLog: Invalidating makefile for TrajectoryAOEditor (TrajectoryAOCharacter.cpp.obj.response modified)
+[2023.12.04-23.41.21:284][474]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.41.21:284][474]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.41.21:284][474]CompilerResultsLog: Building 7 actions with 8 processes...
+[2023.12.04-23.41.21:284][474]CompilerResultsLog:   [1/7] TrajectoryAO.init.gen.cpp
+[2023.12.04-23.41.21:284][474]CompilerResultsLog:   [2/7] TrajectoryAOGameMode.cpp
+[2023.12.04-23.41.21:284][474]CompilerResultsLog:   [3/7] TrajectoryAOCharacter.gen.cpp
+[2023.12.04-23.41.21:284][474]CompilerResultsLog:   [4/7] TrajectoryAOCharacter.cpp
+[2023.12.04-23.41.21:284][474]CompilerResultsLog:   [5/7] UE4Editor-TrajectoryAO-0835.lib
+[2023.12.04-23.41.21:284][474]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0835.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0835.exp
+[2023.12.04-23.41.21:284][474]CompilerResultsLog:   [6/7] UE4Editor-TrajectoryAO-0835.dll
+[2023.12.04-23.41.21:284][474]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0835.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0835.suppressed.exp
+[2023.12.04-23.41.21:284][474]CompilerResultsLog:   [7/7] TrajectoryAOEditor.target
+[2023.12.04-23.41.21:284][474]CompilerResultsLog: Total time in Parallel executor: 5.98 seconds
+[2023.12.04-23.41.21:284][474]CompilerResultsLog: Total execution time: 10.42 seconds
+[2023.12.04-23.41.21:284][474]LogMainFrame: MainFrame: Module compiling took 10.550 seconds
+[2023.12.04-23.41.21:344][474]LogClass: Could not find existing class TrajectoryAOCharacter in package /Script/TrajectoryAO for HotReload, assuming new class
+[2023.12.04-23.41.21:369][474]LogHotReload: Re-instancing TrajectoryAOCharacter after hot-reload.
+[2023.12.04-23.41.21:416][474]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.41.21:424][474]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.41.21:526][474]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0148 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.41.21:526][474]Display: HotReload took 10.8s.
+[2023.12.04-23.41.24:334][615]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.41.24:342][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.41.24:342][615]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:41:24 AM)
+[2023.12.04-23.41.24:342][615]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.41.24:358][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015913s)
+[2023.12.04-23.41.24:360][615]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.41.24:360][615]LogPlayLevel: PIE: World Init took: (0.001675s)
+[2023.12.04-23.41.24:360][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017815s)
+[2023.12.04-23.41.24:448][615]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2023.12.04-23.41.24:449][615]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.12.04-23.41.24:449][615]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.41.24:449][615]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.41.24:449][615]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.41.24:449][615]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.41.24:449][615]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.41.24:449][615]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.41.24:449][615]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.41.24:449][615]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.41.24:450][615]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.41.24:450][615]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.41.24:450][615]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.41.24:450][615]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.41.24:456][615]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.41.24:456][615]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.41.24:474][615]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.41.24:474][615]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.41.24:474][615]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.41.24:475][615]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.41.24:475][615]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.41.24:475][615]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.41.24:475][615]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.41.24:477][615]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.41.24:477][615]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.41.24:477][615]LogInit: FAudioDevice initialized.
+[2023.12.04-23.41.24:477][615]LogAudio: Display: Audio Device (ID: 10) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.41.24:485][615]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.41.24:487][615]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.41.24
+[2023.12.04-23.41.24:488][615]LogWorld: Bringing up level for play took: 0.002120
+[2023.12.04-23.41.24:488][615]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2023.12.04-23.41.24:490][615]PIE: Server logged in
+[2023.12.04-23.41.24:492][615]PIE: Play in editor total start time 0.152 seconds.
+[2023.12.04-23.41.29:423][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.41.29:423][905]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.41.29:423][905]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.41.29:424][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.41.29:435][905]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.41.29:442][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.41.29:459][905]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-23.41.29:461][905]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.41.29:462][905]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.41.29:466][905]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.41.29:519][905]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2023.12.04-23.41.29:552][906]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.12.04-23.43.23:006][385]Candidate modules for hot reload:
+[2023.12.04-23.43.23:006][385]  TrajectoryAO
+[2023.12.04-23.43.23:007][385]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,4066 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.43.23:013][385]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.43.30:575][532]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:43:30 AM
+[2023.12.04-23.43.30:575][532]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.43.30:575][532]CompilerResultsLog: Invalidating makefile for TrajectoryAOEditor (TrajectoryAOCharacter.cpp.obj.response modified)
+[2023.12.04-23.43.30:576][532]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.43.30:576][532]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.43.30:576][532]CompilerResultsLog: Building 7 actions with 8 processes...
+[2023.12.04-23.43.30:576][532]CompilerResultsLog:   [1/7] TrajectoryAO.init.gen.cpp
+[2023.12.04-23.43.30:576][532]CompilerResultsLog:   [2/7] TrajectoryAOCharacter.gen.cpp
+[2023.12.04-23.43.30:576][532]CompilerResultsLog:   [3/7] TrajectoryAOGameMode.cpp
+[2023.12.04-23.43.30:576][532]CompilerResultsLog:   [4/7] TrajectoryAOCharacter.cpp
+[2023.12.04-23.43.30:576][532]CompilerResultsLog:   [5/7] UE4Editor-TrajectoryAO-4066.lib
+[2023.12.04-23.43.30:576][532]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-4066.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-4066.exp
+[2023.12.04-23.43.30:576][532]CompilerResultsLog:   [6/7] UE4Editor-TrajectoryAO-4066.dll
+[2023.12.04-23.43.30:576][532]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-4066.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-4066.suppressed.exp
+[2023.12.04-23.43.30:576][532]CompilerResultsLog:   [7/7] TrajectoryAOEditor.target
+[2023.12.04-23.43.30:576][532]CompilerResultsLog: Total time in Parallel executor: 3.69 seconds
+[2023.12.04-23.43.30:576][532]CompilerResultsLog: Total execution time: 7.37 seconds
+[2023.12.04-23.43.30:576][532]LogMainFrame: MainFrame: Module compiling took 7.577 seconds
+[2023.12.04-23.43.30:619][532]LogClass: Could not find existing class TrajectoryAOCharacter in package /Script/TrajectoryAO for HotReload, assuming new class
+[2023.12.04-23.43.30:636][532]LogHotReload: Re-instancing TrajectoryAOCharacter after hot-reload.
+[2023.12.04-23.43.30:690][532]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.43.30:697][532]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.43.30:798][532]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0153 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.43.30:798][532]Display: HotReload took  7.8s.
+[2023.12.04-23.43.35:073][607]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.43.35:082][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.43.35:082][607]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:43:35 AM)
+[2023.12.04-23.43.35:082][607]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.43.35:094][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011341s)
+[2023.12.04-23.43.35:095][607]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.43.35:096][607]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2023.12.04-23.43.35:096][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013044s)
+[2023.12.04-23.43.35:165][607]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2023.12.04-23.43.35:166][607]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.12.04-23.43.35:166][607]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.43.35:166][607]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.43.35:166][607]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.43.35:166][607]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.43.35:166][607]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.43.35:166][607]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.43.35:166][607]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.43.35:166][607]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.43.35:167][607]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.43.35:167][607]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.43.35:167][607]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.43.35:167][607]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.43.35:171][607]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.43.35:171][607]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.43.35:188][607]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.43.35:188][607]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.43.35:188][607]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.43.35:188][607]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.43.35:189][607]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.43.35:189][607]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.43.35:189][607]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.43.35:191][607]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.43.35:191][607]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.43.35:191][607]LogInit: FAudioDevice initialized.
+[2023.12.04-23.43.35:191][607]LogAudio: Display: Audio Device (ID: 11) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.43.35:202][607]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.43.35:204][607]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.43.35
+[2023.12.04-23.43.35:204][607]LogWorld: Bringing up level for play took: 0.002096
+[2023.12.04-23.43.35:205][607]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2023.12.04-23.43.35:207][607]PIE: Server logged in
+[2023.12.04-23.43.35:208][607]PIE: Play in editor total start time 0.128 seconds.
+[2023.12.04-23.44.01:113][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.44.01:113][158]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.44.01:114][158]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.44.01:114][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.44.01:126][158]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.44.01:131][158]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.44.01:149][158]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-23.44.01:149][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.44.01:150][158]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.44.01:153][158]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.44.01:178][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2023.12.04-23.44.01:204][159]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.12.04-23.44.09:095][434]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2023.12.04-23.44.31:390][656]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.44.31:399][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.44.31:399][656]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:44:31 AM)
+[2023.12.04-23.44.31:399][656]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.44.31:411][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011625s)
+[2023.12.04-23.44.31:413][656]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.44.31:413][656]LogPlayLevel: PIE: World Init took: (0.002291s)
+[2023.12.04-23.44.31:413][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014137s)
+[2023.12.04-23.44.31:433][656]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.12.04-23.44.31:436][656]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2023.12.04-23.44.31:436][656]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.44.31:436][656]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.44.31:436][656]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.44.31:436][656]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.44.31:436][656]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.44.31:436][656]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.44.31:436][656]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.44.31:436][656]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.44.31:436][656]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.44.31:436][656]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.44.31:436][656]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.44.31:436][656]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.44.31:440][656]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.44.31:440][656]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.44.31:456][656]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.44.31:457][656]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.44.31:457][656]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.44.31:457][656]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.44.31:457][656]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.44.31:457][656]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.44.31:457][656]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.44.31:459][656]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.44.31:459][656]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.44.31:459][656]LogInit: FAudioDevice initialized.
+[2023.12.04-23.44.31:459][656]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.44.31:470][656]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.44.31:473][656]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.44.31
+[2023.12.04-23.44.31:473][656]LogWorld: Bringing up level for play took: 0.002302
+[2023.12.04-23.44.31:473][656]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2023.12.04-23.44.31:476][656]PIE: Server logged in
+[2023.12.04-23.44.31:477][656]PIE: Play in editor total start time 0.079 seconds.
+[2023.12.04-23.44.48:066][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.44.48:066][617]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.44.48:066][617]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.44.48:067][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.44.48:076][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.44.48:203][617]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.44.48:220][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.44.48:220][617]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.44.48:221][617]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.44.48:228][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.12.04-23.44.48:325][618]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.12.04-23.44.48:735][636]LogSlate: Took 0.032130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.12.04-23.45.00:192][314]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.45.00:200][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.45.00:200][314]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:45:00 AM)
+[2023.12.04-23.45.00:200][314]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.45.00:216][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015120s)
+[2023.12.04-23.45.00:217][314]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.45.00:217][314]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2023.12.04-23.45.00:217][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016594s)
+[2023.12.04-23.45.00:241][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.12.04-23.45.00:245][314]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2023.12.04-23.45.00:245][314]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.45.00:245][314]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.45.00:245][314]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.45.00:245][314]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.45.00:245][314]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.45.00:245][314]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.45.00:245][314]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.45.00:245][314]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.45.00:245][314]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.45.00:245][314]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.45.00:245][314]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.45.00:245][314]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.45.00:249][314]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.45.00:249][314]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.45.00:266][314]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.45.00:266][314]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.45.00:266][314]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.45.00:266][314]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.45.00:267][314]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.45.00:267][314]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.45.00:267][314]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.45.00:268][314]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.45.00:269][314]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.45.00:269][314]LogInit: FAudioDevice initialized.
+[2023.12.04-23.45.00:269][314]LogAudio: Display: Audio Device (ID: 13) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.45.00:281][314]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.45.00:283][314]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.45.00
+[2023.12.04-23.45.00:283][314]LogWorld: Bringing up level for play took: 0.002701
+[2023.12.04-23.45.00:284][314]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2023.12.04-23.45.00:286][314]PIE: Server logged in
+[2023.12.04-23.45.00:287][314]PIE: Play in editor total start time 0.089 seconds.
+[2023.12.04-23.45.44:622][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.45.44:623][871]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.45.44:623][871]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.45.44:623][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.45.44:638][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.45.44:751][871]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.45.44:770][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.45.44:770][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.45.44:771][871]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.45.44:778][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2023.12.04-23.45.44:840][872]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.12.04-23.46.10:562][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2023.12.04-23.46.10:898][ 60]LogSavePackage: Moving 'C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/Saved/FirstPersonExampleMap_Auto1DAA1C7714E31BEF490B4AC87E463DDB7.tmp' to 'C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2023.12.04-23.46.10:939][ 60]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.398
+[2023.12.04-23.46.10:939][ 60]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.398
+[2023.12.04-23.47.01:494][326]Candidate modules for hot reload:
+[2023.12.04-23.47.01:494][326]  TrajectoryAO
+[2023.12.04-23.47.01:494][326]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,9090 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.47.01:500][326]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.47.08:985][725]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:47:08 AM
+[2023.12.04-23.47.08:985][725]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.47.08:985][725]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.47.08:985][725]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.47.08:986][725]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.12.04-23.47.08:986][725]CompilerResultsLog:   [1/4] TrajectoryAOCharacter.cpp
+[2023.12.04-23.47.08:986][725]CompilerResultsLog:   [2/4] UE4Editor-TrajectoryAO-9090.lib
+[2023.12.04-23.47.08:986][725]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-9090.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-9090.exp
+[2023.12.04-23.47.08:986][725]CompilerResultsLog:   [3/4] UE4Editor-TrajectoryAO-9090.dll
+[2023.12.04-23.47.08:986][725]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-9090.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-9090.suppressed.exp
+[2023.12.04-23.47.08:986][725]CompilerResultsLog:   [4/4] TrajectoryAOEditor.target
+[2023.12.04-23.47.08:986][725]CompilerResultsLog: Total time in Parallel executor: 5.66 seconds
+[2023.12.04-23.47.08:986][725]CompilerResultsLog: Total execution time: 7.35 seconds
+[2023.12.04-23.47.08:986][725]LogMainFrame: MainFrame: Module compiling took 7.501 seconds
+[2023.12.04-23.47.09:068][725]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.47.09:075][725]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.47.09:176][725]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0151 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.47.09:176][725]Display: HotReload took  7.7s.
+[2023.12.04-23.47.11:636][842]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.47.11:645][842]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.47.11:645][842]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:47:11 AM)
+[2023.12.04-23.47.11:645][842]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.47.11:663][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016671s)
+[2023.12.04-23.47.11:665][842]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.47.11:665][842]LogPlayLevel: PIE: World Init took: (0.002495s)
+[2023.12.04-23.47.11:666][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019684s)
+[2023.12.04-23.47.11:752][842]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2023.12.04-23.47.11:754][842]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2023.12.04-23.47.11:754][842]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.47.11:754][842]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.47.11:754][842]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.47.11:754][842]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.47.11:754][842]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.47.11:754][842]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.47.11:754][842]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.47.11:754][842]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.47.11:754][842]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.47.11:754][842]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.47.11:754][842]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.47.11:754][842]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.47.11:758][842]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.47.11:758][842]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.47.11:776][842]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.47.11:777][842]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.47.11:777][842]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.47.11:777][842]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.47.11:778][842]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.47.11:778][842]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.47.11:778][842]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.47.11:779][842]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.47.11:779][842]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.47.11:779][842]LogInit: FAudioDevice initialized.
+[2023.12.04-23.47.11:780][842]LogAudio: Display: Audio Device (ID: 14) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.47.11:791][842]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.47.11:794][842]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.47.11
+[2023.12.04-23.47.11:794][842]LogWorld: Bringing up level for play took: 0.002652
+[2023.12.04-23.47.11:794][842]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2023.12.04-23.47.11:798][842]PIE: Server logged in
+[2023.12.04-23.47.11:798][842]PIE: Play in editor total start time 0.156 seconds.
+[2023.12.04-23.47.34:453][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.47.34:453][104]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.47.34:453][104]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.47.34:454][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.47.34:465][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.47.34:568][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.47.34:588][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-23.47.34:588][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.47.34:590][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.47.34:593][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.47.34:596][104]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.12.04-23.47.34:648][105]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2023.12.04-23.47.35:571][157]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.47.35:578][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.47.35:578][157]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:47:35 AM)
+[2023.12.04-23.47.35:578][157]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.47.35:594][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015165s)
+[2023.12.04-23.47.35:596][157]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.47.35:596][157]LogPlayLevel: PIE: World Init took: (0.001881s)
+[2023.12.04-23.47.35:596][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017295s)
+[2023.12.04-23.47.35:617][157]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.12.04-23.47.35:619][157]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.12.04-23.47.35:619][157]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.47.35:619][157]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.47.35:619][157]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.47.35:619][157]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.47.35:619][157]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.47.35:619][157]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.47.35:619][157]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.47.35:619][157]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.47.35:620][157]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.47.35:620][157]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.47.35:620][157]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.47.35:620][157]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.47.35:623][157]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.47.35:623][157]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.47.35:639][157]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.47.35:639][157]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.47.35:639][157]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.47.35:639][157]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.47.35:640][157]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.47.35:640][157]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.47.35:640][157]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.47.35:641][157]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.47.35:641][157]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.47.35:641][157]LogInit: FAudioDevice initialized.
+[2023.12.04-23.47.35:641][157]LogAudio: Display: Audio Device (ID: 15) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.47.35:654][157]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.47.35:657][157]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.47.35
+[2023.12.04-23.47.35:657][157]LogWorld: Bringing up level for play took: 0.002058
+[2023.12.04-23.47.35:657][157]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2023.12.04-23.47.35:659][157]PIE: Server logged in
+[2023.12.04-23.47.35:660][157]PIE: Play in editor total start time 0.083 seconds.
+[2023.12.04-23.47.58:362][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.47.58:362][513]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.47.58:364][513]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.47.58:364][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.47.58:375][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.47.58:488][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.47.58:508][513]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-23.47.58:508][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.47.58:509][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.47.58:513][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.47.58:516][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.12.04-23.47.58:577][514]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.12.04-23.49.48:139][388]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.49.48:147][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.49.48:147][388]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:49:48 AM)
+[2023.12.04-23.49.48:147][388]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.49.48:160][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012809s)
+[2023.12.04-23.49.48:161][388]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.49.48:161][388]LogPlayLevel: PIE: World Init took: (0.001547s)
+[2023.12.04-23.49.48:161][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014566s)
+[2023.12.04-23.49.48:184][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.12.04-23.49.48:187][388]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.12.04-23.49.48:187][388]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.49.48:187][388]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.49.48:187][388]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.49.48:187][388]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.49.48:187][388]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.49.48:187][388]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.49.48:187][388]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.49.48:187][388]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.49.48:188][388]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.49.48:188][388]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.49.48:188][388]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.49.48:188][388]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.49.48:191][388]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.49.48:191][388]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.49.48:208][388]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.49.48:209][388]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.49.48:209][388]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.49.48:209][388]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.49.48:209][388]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.49.48:209][388]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.49.48:209][388]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.49.48:211][388]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.49.48:211][388]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.49.48:212][388]LogInit: FAudioDevice initialized.
+[2023.12.04-23.49.48:212][388]LogAudio: Display: Audio Device (ID: 16) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.49.48:224][388]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.49.48:226][388]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.49.48
+[2023.12.04-23.49.48:227][388]LogWorld: Bringing up level for play took: 0.002143
+[2023.12.04-23.49.48:227][388]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2023.12.04-23.49.48:229][388]PIE: Server logged in
+[2023.12.04-23.49.48:230][388]PIE: Play in editor total start time 0.085 seconds.
+[2023.12.04-23.50.19:063][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.50.19:063][136]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.50.19:064][136]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.50.19:064][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.50.19:073][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.50.19:185][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.50.19:204][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.50.19:204][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.50.19:205][136]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.50.19:212][136]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2023.12.04-23.50.19:270][137]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.12.04-23.52.09:942][789]Candidate modules for hot reload:
+[2023.12.04-23.52.09:942][789]  TrajectoryAO
+[2023.12.04-23.52.09:942][789]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,0730 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.52.09:948][789]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:52:20 AM
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog: Invalidating makefile for TrajectoryAOEditor (TrajectoryAOCharacter.cpp.obj.response modified)
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog: Building 4 actions with 8 processes...
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog:   [1/4] TrajectoryAOCharacter.cpp
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog:   [2/4] UE4Editor-TrajectoryAO-0730.lib
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0730.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0730.exp
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog:   [3/4] UE4Editor-TrajectoryAO-0730.dll
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0730.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-0730.suppressed.exp
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog:   [4/4] TrajectoryAOEditor.target
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog: Total time in Parallel executor: 5.52 seconds
+[2023.12.04-23.52.20:661][ 63]CompilerResultsLog: Total execution time: 10.56 seconds
+[2023.12.04-23.52.20:661][ 63]LogMainFrame: MainFrame: Module compiling took 10.728 seconds
+[2023.12.04-23.52.20:737][ 63]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0005 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.52.20:743][ 63]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.52.20:854][ 63]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0166 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.52.20:854][ 63]Display: HotReload took 10.9s.
+[2023.12.04-23.52.23:175][138]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.52.23:187][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.52.23:187][138]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:52:23 AM)
+[2023.12.04-23.52.23:187][138]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.52.23:202][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014903s)
+[2023.12.04-23.52.23:204][138]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.52.23:204][138]LogPlayLevel: PIE: World Init took: (0.002347s)
+[2023.12.04-23.52.23:205][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017524s)
+[2023.12.04-23.52.23:295][138]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2023.12.04-23.52.23:298][138]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.12.04-23.52.23:298][138]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.52.23:298][138]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.52.23:298][138]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.52.23:298][138]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.52.23:298][138]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.52.23:298][138]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.52.23:298][138]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.52.23:298][138]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.52.23:299][138]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.52.23:299][138]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.52.23:299][138]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.52.23:299][138]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.52.23:303][138]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.52.23:303][138]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.52.23:322][138]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.52.23:323][138]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.52.23:323][138]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.52.23:323][138]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.52.23:324][138]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.52.23:324][138]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.52.23:324][138]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.52.23:325][138]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.52.23:325][138]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.52.23:325][138]LogInit: FAudioDevice initialized.
+[2023.12.04-23.52.23:325][138]LogAudio: Display: Audio Device (ID: 17) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.52.23:339][138]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.52.23:342][138]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.52.23
+[2023.12.04-23.52.23:343][138]LogWorld: Bringing up level for play took: 0.002852
+[2023.12.04-23.52.23:343][138]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2023.12.04-23.52.23:346][138]PIE: Server logged in
+[2023.12.04-23.52.23:347][138]PIE: Play in editor total start time 0.162 seconds.
+[2023.12.04-23.53.15:023][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.53.15:023][131]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.53.15:023][131]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.53.15:023][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.53.15:038][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.53.15:155][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.53.15:173][131]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.04-23.53.15:176][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.53.15:178][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.53.15:180][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.53.15:214][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2023.12.04-23.53.15:272][132]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.12.04-23.56.50:204][272]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2023.12.04-23.57.31:798][476]LogSlate: Window 'Project Settings' being destroyed
+[2023.12.04-23.57.31:807][476]LogSlate: Window 'Project Settings' being destroyed
+[2023.12.04-23.58.21:289][850]Candidate modules for hot reload:
+[2023.12.04-23.58.21:290][850]  TrajectoryAO
+[2023.12.04-23.58.21:290][850]Launching UnrealBuildTool... [D:/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=TrajectoryAO,6114 TrajectoryAOEditor Win64 Development -Project="C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject" "C:/Users/austi/Desktop/UnrealEngine Projects/Trajectory AO/trajectoryAO/TrajectoryAO/TrajectoryAO.uproject"  -IgnoreJunk]
+[2023.12.04-23.58.21:296][850]Warning: Starting HotReload took  0.0s.
+[2023.12.04-23.58.27:404][164]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2023.12.04-23.58.29:705][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2023.12.04-23.58.31:027][335]CompilerResultsLog: New page: Compilation - Dec 4, 2023, 11:58:31 AM
+[2023.12.04-23.58.31:027][335]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO).
+[2023.12.04-23.58.31:027][335]CompilerResultsLog: Invalidating makefile for TrajectoryAOEditor (TrajectoryAOCharacter.cpp.obj.response modified)
+[2023.12.04-23.58.31:027][335]CompilerResultsLog: Building TrajectoryAOEditor...
+[2023.12.04-23.58.31:027][335]CompilerResultsLog: Using Visual Studio 2022 14.38.33130 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.12.04-23.58.31:027][335]CompilerResultsLog: Building 6 actions with 8 processes...
+[2023.12.04-23.58.31:027][335]CompilerResultsLog:   [1/6] TrajectoryAOGameMode.cpp
+[2023.12.04-23.58.31:027][335]CompilerResultsLog:   [2/6] TrajectoryAOCharacter.gen.cpp
+[2023.12.04-23.58.31:027][335]CompilerResultsLog:   [3/6] TrajectoryAOCharacter.cpp
+[2023.12.04-23.58.31:027][335]CompilerResultsLog:   [4/6] UE4Editor-TrajectoryAO-6114.lib
+[2023.12.04-23.58.31:027][335]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6114.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6114.exp
+[2023.12.04-23.58.31:027][335]CompilerResultsLog:   [5/6] UE4Editor-TrajectoryAO-6114.dll
+[2023.12.04-23.58.31:027][335]CompilerResultsLog:      Creating library C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6114.suppressed.lib and object C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-6114.suppressed.exp
+[2023.12.04-23.58.31:027][335]CompilerResultsLog:   [6/6] TrajectoryAOEditor.target
+[2023.12.04-23.58.31:027][335]CompilerResultsLog: Total time in Parallel executor: 4.98 seconds
+[2023.12.04-23.58.31:027][335]CompilerResultsLog: Total execution time: 9.61 seconds
+[2023.12.04-23.58.31:027][335]LogMainFrame: MainFrame: Module compiling took 9.745 seconds
+[2023.12.04-23.58.31:121][335]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'TrajectoryAO' in 0.0004 seconds. Added 4 classes and 2 folders.
+[2023.12.04-23.58.31:131][335]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.12.04-23.58.31:257][335]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0147 seconds. Added 3826 classes and 930 folders.
+[2023.12.04-23.58.31:257][335]Display: HotReload took 10.0s.
+[2023.12.04-23.58.31:258][335]LogEditorViewport: Clicking on Actor (LMB): FirstPersonCharacter_C (FirstPersonCharacter2)
+[2023.12.04-23.58.33:535][439]LogTemp: Repeating last play command: Selected Viewport
+[2023.12.04-23.58.33:542][439]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.04-23.58.33:542][439]PIE: New page: PIE session: FirstPersonExampleMap (Dec 4, 2023, 11:58:33 AM)
+[2023.12.04-23.58.33:542][439]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.58.33:554][439]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012051s)
+[2023.12.04-23.58.33:556][439]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.12.04-23.58.33:556][439]LogPlayLevel: PIE: World Init took: (0.001485s)
+[2023.12.04-23.58.33:556][439]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013771s)
+[2023.12.04-23.58.33:694][439]LogUObjectHash: Compacting FUObjectHashTables data took   7.23ms
+[2023.12.04-23.58.33:698][439]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.12.04-23.58.33:698][439]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.04-23.58.33:698][439]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.04-23.58.33:698][439]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.04-23.58.33:698][439]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.04-23.58.33:698][439]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.04-23.58.33:698][439]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.12.04-23.58.33:698][439]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.04-23.58.33:698][439]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.04-23.58.33:698][439]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.04-23.58.33:698][439]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.04-23.58.33:698][439]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.04-23.58.33:698][439]LogAudioMixer: Display: Initializing audio mixer.
+[2023.12.04-23.58.33:703][439]LogAudioMixer: Display: 0: FrontLeft
+[2023.12.04-23.58.33:703][439]LogAudioMixer: Display: 1: FrontRight
+[2023.12.04-23.58.33:720][439]LogAudioMixer: Display: Using Audio Device Headphone (Realtek(R) Audio)
+[2023.12.04-23.58.33:721][439]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.04-23.58.33:721][439]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.04-23.58.33:721][439]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.04-23.58.33:722][439]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.12.04-23.58.33:722][439]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2023.12.04-23.58.33:722][439]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2023.12.04-23.58.33:723][439]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2023.12.04-23.58.33:723][439]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2023.12.04-23.58.33:723][439]LogInit: FAudioDevice initialized.
+[2023.12.04-23.58.33:723][439]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonExampleMap'.
+[2023.12.04-23.58.33:735][439]LogLoad: Game class is 'TrajectoryAOGameMode'
+[2023.12.04-23.58.33:738][439]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2023.12.04-17.58.33
+[2023.12.04-23.58.33:738][439]LogWorld: Bringing up level for play took: 0.002143
+[2023.12.04-23.58.33:738][439]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2023.12.04-23.58.33:740][439]PIE: Server logged in
+[2023.12.04-23.58.33:742][439]PIE: Play in editor total start time 0.202 seconds.
+[2023.12.04-23.59.06:662][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.59.06:662][405]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.12.04-23.59.06:662][405]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.12.04-23.59.06:663][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.59.06:674][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.04-23.59.06:785][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.04-23.59.06:804][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.04-23.59.06:804][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.59.06:805][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2023.12.04-23.59.06:813][405]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2023.12.04-23.59.06:872][406]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.12.05-00.07.54:903][162]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.08.44:287][309]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.08.54:733][340]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.09.09:188][383]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.09.33:114][454]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.10.19:468][592]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.10.46:341][672]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.11.10:192][743]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.11.31:695][807]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.11.50:533][863]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.12.09:994][921]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.12.37:582][  3]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.13.13:866][111]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.13.25:608][146]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.13.46:468][208]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.14.41:909][373]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.14.59:415][425]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.15.34:002][528]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2023.12.05-00.15.51:432][580]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.

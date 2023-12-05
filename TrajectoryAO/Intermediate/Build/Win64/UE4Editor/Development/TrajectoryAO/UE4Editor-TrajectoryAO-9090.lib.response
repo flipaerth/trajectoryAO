@@ -1,0 +1,21 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-TrajectoryAO-9090.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\TrajectoryAOEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAO.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAOCharacter.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAOGameMode.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAOHUD.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAOProjectile.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAO.init.gen.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAOCharacter.gen.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAOGameMode.gen.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAOHUD.gen.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\TrajectoryAOProjectile.gen.cpp.obj"
+"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\Default.rc2.res"
+/OUT:"C:\Users\austi\Desktop\UnrealEngine Projects\Trajectory AO\trajectoryAO\TrajectoryAO\Intermediate\Build\Win64\UE4Editor\Development\TrajectoryAO\UE4Editor-TrajectoryAO-9090.lib"

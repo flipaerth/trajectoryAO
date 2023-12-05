@@ -94,6 +94,10 @@ void ATrajectoryAOCharacter::Tick(float DeltaTime) {
 
 	Super::Tick(DeltaTime);
 
+	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Cyan, "Press the 1, 2, 3, 4, or 5 number keys to change projectile speed.");
+	int32 IntSpeed = FMath::RoundToInt(projectileSpeed); // Round the float to the nearest integer - ChatGPT helped with this line of code and specifically the %d in the text
+	GEngine->AddOnScreenDebugMessage(-1, 1.0f, FColor::Red, FString::Printf(TEXT("The current projectile speed is: %d"), IntSpeed));
+
 	// Getting the location of the gun
 	FRotator SpawnRotation = GetControlRotation();
 	FVector start = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset); //FP_Gun->GetComponentLocation();
@@ -128,8 +132,47 @@ void ATrajectoryAOCharacter::Tick(float DeltaTime) {
 		FVector currentPoint = start + actualDisplacement;
 		//FVector previousPoint = currentPoint;
 
+
+		//*************************************************************************************************************************
+		// This code is to stop the debug line when it hits an object
+		FHitResult OutHit;
+		FCollisionQueryParams CollisionParams;
+
+		// If something is hit, this puts it as the outhit hit result variable
+		bool isHit = GetWorld()->LineTraceSingleByChannel(OutHit, previousPoint, currentPoint, ECC_Visibility, CollisionParams);
+
+		if (isHit) {
+			if (OutHit.bBlockingHit) {
+
+				// Calculate the line direction
+				FVector lineDir = (currentPoint - previousPoint).GetSafeNormal();
+
+				// Calculate the surface normal
+				FVector normal = OutHit.ImpactNormal.GetSafeNormal();
+
+				// Used ChatGPT to help with this part - I struggled the absolute MOST here for days before I used it, but I realize that goes against the point of the assignment
+				FVector reflection = lineDir - 2 * FVector::DotProduct(lineDir, normal) * normal; // I had a similar implementation a few hours prior
+				reflection.Normalize();
+
+				// Calculate the point for the reflection line
+				FVector reflectionPoint = OutHit.ImpactPoint + reflection * reflectionOffset;
+
+				DrawDebugLine(GetWorld(), OutHit.ImpactPoint, reflectionPoint, lineColorFromGun, false, 0.1f);
+
+				// Draw debug line up to the hit location
+				DrawDebugLine(GetWorld(), previousPoint, OutHit.ImpactPoint, lineColorFromGun, false, 0.1f);
+				break; // Stop the loop when it hits an object - ChatGPT addition for optimization
+			}
+		}
+		else {
+			// Draw debug line
+			DrawDebugLine(GetWorld(), previousPoint, currentPoint, lineColorFromGun, false, 0.1f);
+		}
+		//*************************************************************************************************************************
+
+
 		// draw line here
-		DrawDebugLine(GetWorld(), previousPoint, currentPoint, lineColorFromGun, false, 0.1f);
+		//DrawDebugLine(GetWorld(), previousPoint, currentPoint, lineColorFromGun, false, 0.1f);
 
 		// Update previousPoint for the next iteration
 		previousPoint = currentPoint;
@@ -161,7 +204,7 @@ void ATrajectoryAOCharacter::BeginPlay()
 }
 
 void ATrajectoryAOCharacter::projSpeedChange1() {
-	projectileSpeed = 1.0f;
+	projectileSpeed = 1000.0f;
 }
 
 void ATrajectoryAOCharacter::projSpeedChange2() {
@@ -169,9 +212,16 @@ void ATrajectoryAOCharacter::projSpeedChange2() {
 }
 
 void ATrajectoryAOCharacter::projSpeedChange3() {
-	projectileSpeed = 10000.0f;
+	projectileSpeed = 5000.0f;
 }
 
+void ATrajectoryAOCharacter::projSpeedChange4() {
+	projectileSpeed = 7000.0f;
+}
+
+void ATrajectoryAOCharacter::projSpeedChange5() {
+	projectileSpeed = 10000.0f;
+}
 
 //////////////////////////////////////////////////////////////////////////
 // Input
@@ -209,6 +259,8 @@ void ATrajectoryAOCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	PlayerInputComponent->BindAction("Speed1", IE_Pressed, this, &ATrajectoryAOCharacter::projSpeedChange1);
 	PlayerInputComponent->BindAction("Speed2", IE_Pressed, this, &ATrajectoryAOCharacter::projSpeedChange2);
 	PlayerInputComponent->BindAction("Speed3", IE_Pressed, this, &ATrajectoryAOCharacter::projSpeedChange3);
+	PlayerInputComponent->BindAction("Speed4", IE_Pressed, this, &ATrajectoryAOCharacter::projSpeedChange4);
+	PlayerInputComponent->BindAction("Speed5", IE_Pressed, this, &ATrajectoryAOCharacter::projSpeedChange5);
 }
 
 void ATrajectoryAOCharacter::OnFire()

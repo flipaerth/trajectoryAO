@@ -77,11 +77,16 @@ public:
 	UPROPERTY(EditAnywhere)
 	FColor lineColorFromGun;
 
+	UPROPERTY(EditAnywhere)
+	float reflectionOffset = 200.0f;
+
 	float GetDisplacement(float Time, float ProjectileGravity, float ProjectileSpeed);
 
 	void projSpeedChange1();
 	void projSpeedChange2();
 	void projSpeedChange3();
+	void projSpeedChange4();
+	void projSpeedChange5();
 
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
